@@ -1,5 +1,5 @@
-const http = require("http");
 const fs = require("fs");
+const http = require("http");
 
 http.createServer((req, res) => {
     switch (req.url) {
